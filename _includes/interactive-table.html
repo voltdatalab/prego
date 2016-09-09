@@ -1,0 +1,46 @@
+
+<div id="entry-list">
+<div class="row" style="margin-bottom:10px;">
+		<input id="toolSearch" type="text" class="search form-control" placeholder="Search by word, tag etc." />
+</div>
+<script type="text/javascript">
+function reply_click(element) {
+	document.getElementById('toolSearch').value = element.getAttribute('data-product-name');
+}
+</script>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:30%;"><span class="sort" data-sort="tool">Tool</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="description">Description</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="link">Go for it</span></th>
+			<th style="width:30%;"><span class="sort" data-sort="tags">Tags</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	{% for post in site.posts %}
+		<tr>
+			<td class="name">{{ post.tool }}</td>
+			<td class="city">{{ post.description }}</td>
+			<td class="category"><a href="{{ post.link }}" target="_blank">link</a></td>
+			<td class="tags"><span class="{{ post.tags | array_to_sentence_string }}">{{ post.tags | array_to_sentence_string }}</span></td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['name', 'city', 'category', 'tags']
+};
+
+var entryList = new List('entry-list', options);
+
+</script>

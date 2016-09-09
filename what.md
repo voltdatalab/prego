@@ -4,11 +4,11 @@ layout: page
 
 ### About Prego!
 
-Prego! is a quick reference guide compiling numerous tools for data journalism or other data/map-related projects.
+Prego! is a quick reference guide compiling numerous tools to manipulate, analyze, visualize and read data.
 
 It is meant to be a simple, easy website where people come to look for resources and tools to create data journalism-related or other kind of projects.
 
-### What does Prego! means?
+### What does Prego! mean?
 
 Interjection
 *from Italian*
@@ -24,17 +24,19 @@ __[Linda Falcone](http://www.theflorentine.net/lifestyle/2005/11/prego/), 2005__
 
 In prego you can browse around to find the tools you want to work with for data journalism and other data-related projects. We add the tools we get to know from basically every field, from javascript libraries for dataviz to publishing templates and cool APIs.
 
-This work is mostly a compilation list, so there is no attribution required whatsoever and we do not own any copyrights to any tools here, we just link to the source.
+This work is mostly a compilation list, so there is no attribution required whatsoever and we do not own any copyrights on any tools here, we just link to the source.
 
 The advantage is that you can always come to the same place to find new and awesome things, no more need to be google random words for the tool you are looking for. Enjoy!
 
-Prego! is not the only site that does this kind of compilation (although we have the most tools and promise to keep updating). Check out our evil competitors [Datavisualization.ch](http://selection.datavisualization.ch/), [Dataviz Catalogue](http://www.datavizcatalogue.com/), [Creative Bloq](http://www.creativebloq.com/design-tools/data-visualization-712402).
+Prego! is not the only site that does this kind of compilation. Check out our evil competitors [School of Data](http://schoolofdata.org/) [Datavisualization.ch](http://selection.datavisualization.ch/), [Dataviz Catalogue](http://www.datavizcatalogue.com/), [Creative Bloq](http://www.creativebloq.com/design-tools/data-visualization-712402).
+
+But we do have over 100 tools in an easily searchable list, and promise to keep updating.
 
 ### Credits
 
 Prego! was built by Brazilian journalist [Sérgio Spagnuolo](http://twitter.com/@ProjetoStock), from the data journalism news agency [Volt Data Lab](http://voltdata.info).
 
-This is a very simple page, built just with the Jekyll blogging platform and hosted by GitHub Pages. The awesome [Jekyll DB](https://github.com/rypan/jekyll-db) template powers this database.
+This is a very simple page, built with just the Jekyll blogging platform and hosted by GitHub Pages. The awesome [Jekyll DB](https://github.com/rypan/jekyll-db) template powers this database.
 
 ___
 

@@ -1,10 +1,10 @@
 /* style for the tags */
-.graphics, .APIs, .data, .jekyll, .maps, .tutorial, .other-stuff {
+.dataviz, .APIs, .data, .jekyll, .maps, .tutorial, .other-stuff {
     padding: 5px;
     font-family: 'Inconsolata';
     border-radius: 5%;
 }
-.graphics{
+.dataviz{
   background-color: #4d004b;
   color: #fff;
 }

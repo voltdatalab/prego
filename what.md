@@ -22,7 +22,7 @@ __[Linda Falcone](http://www.theflorentine.net/lifestyle/2005/11/prego/), 2005__
 
 ### Find a tool
 
-In prego you can browse around to find the tools you want to work with for data journalism and other data-related projects. We add the tools we get to know from basically every field, from javascript libraries for graphics to publishing templates and cool APIs.
+In prego you can browse around to find the tools you want to work with for data journalism and other data-related projects. We add the tools we get to know from basically every field, from javascript libraries for dataviz to publishing templates and cool APIs.
 
 This work is mostly a compilation list, so there is no attribution required whatsoever and we do not own any copyrights to any tools here, we just link to the source.
 

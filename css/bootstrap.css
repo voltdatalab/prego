@@ -350,8 +350,8 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 16.099999999999998px;
-  font-weight: 200;
+  font-size: 1em;
+  font-weight: 700;
   line-height: 1.4;
 }
 

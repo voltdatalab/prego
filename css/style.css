@@ -24,9 +24,11 @@
 }
 .tutorial{
   background-color: #5aae61;
+  color: #fff;
 }
 .other-stuff {
-  background-color: #ababab;
+  background-color: #666;
+  color: #fff;
 }
 .whatever_text{
   max-width: 700px;

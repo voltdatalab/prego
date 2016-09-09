@@ -28,7 +28,7 @@ This work is mostly a compilation list, so there is no attribution required what
 
 The advantage is that you can always come to the same place to find new and awesome things, no more need to be google random words for the tool you are looking for. Enjoy!
 
-Prego! is not the only site that does this kind of compilation. Check out our evil competitors [School of Data](http://schoolofdata.org/) [Datavisualization.ch](http://selection.datavisualization.ch/), [Dataviz Catalogue](http://www.datavizcatalogue.com/), [Creative Bloq](http://www.creativebloq.com/design-tools/data-visualization-712402).
+Prego! is not the only site that does this kind of compilation. Check out our evil competitors [School of Data](http://schoolofdata.org/), [Datavisualization.ch](http://selection.datavisualization.ch/), [Dataviz Catalogue](http://www.datavizcatalogue.com/), [Creative Bloq](http://www.creativebloq.com/design-tools/data-visualization-712402).
 
 But we do have over 100 tools in an easily searchable list, and promise to keep updating.
 

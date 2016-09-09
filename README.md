@@ -32,6 +32,8 @@ Prego! was built by Brazilian journalist [Sérgio Spagnuolo](http://twitter.com/
 
 This is a very simple page, built just with the Jekyll blogging platform and hosted by GitHub Pages. The awesome [Jekyll DB](https://github.com/rypan/jekyll-db) template powers this database.
 
+Find the code [here on Github](https://github.com/voltdatalab/prego).
+
 ___
 
 Photo by Caroline Methot/Unsplash

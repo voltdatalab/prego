@@ -40,5 +40,5 @@ This is a very simple page, built with just the Jekyll blogging platform and hos
 
 ___
 
-Photo by Caroline Methot/Unsplash
+A cool dashboard. What's the code for that one, I wonder. *Photo by Caroline Methot/Unsplash*
 <img src="https://camo.githubusercontent.com/24099604103616c4a76bb6001ac48fbf0809f684/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313435323739363930373737302d6164366364333734623132643f63726f703d656e74726f7079266669743d63726f7026666d3d6a706726683d3730302669786a73763d322e312e302669786c69623d72622d302e332e3526713d383026773d31323735" width="100%" alt="main image">

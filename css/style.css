@@ -13,6 +13,36 @@
 }
 
 /*
+#bookmark-this {
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-bottom: 200px;
+  background: #666;
+  color: #fff;
+  border: 2px solid #a7000c;
+  border-radius: 4px;
+  text-decoration: none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  text-transform: uppercase;
+}
+
+#bookmark-this:hover {
+  background: #ec971f;
+  border: 1px solid #d58512;
+  text-decoration: none;
+}
+
+#bookmark-this:active {
+  border: 1px solid #d58512;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  background: #ec971f;
+}
+
+
 .dataviz{
   background-color: #4d004b;
   color: #fff;

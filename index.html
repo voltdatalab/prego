@@ -10,10 +10,10 @@ layout: default
     <h1>Prego! </h1>
     <p class="lead">A quick reference guide with numerous tools for data journalism or other related projects.</p>
     <hr />
-    <p>Check out about this project <a href="what.html">in this link</a>. You can also access our <a href="http://prego.voltdata.info/output.json" target="_blank">humble API</a>.</p>
-    <p>Do you know about a tool to share? <a href="https://goo.gl/forms/lBEj7Gv9MZLFFXIg1" target="_blank">Click here and tell us!</a>
-    </p> <br />
-    		<p><strong>TAGS:</strong>
+    <p>Check out about this project <a href="what.html">in this link</a>. You can also access our <a href="http://prego.voltdata.info/output.json" target="_blank">humble API</a> and <a id="bookmark-this" href="#" title="Bookmark This Page">bookmark this page</a> if you like.</p>
+    <p>Do you know about a tool to share? <a href="https://goo.gl/forms/lBEj7Gv9MZLFFXIg1" target="_blank">Click here and tell us!</a>.</p>
+    	<br />
+      <p><strong>TAGS:</strong>
             <a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="dataviz">x dataviz</a>
     				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="data">x data</a>
     				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="maps">x maps</a>
@@ -36,3 +36,36 @@ layout: default
 </div><!-- /.container -->
 
 </div>
+
+<script>
+jQuery(function($) {
+  $('#bookmark-this').click(function(e) {
+    var bookmarkURL = window.location.href;
+    var bookmarkTitle = document.title;
+
+    if ('addToHomescreen' in window && addToHomescreen.isCompatible) {
+      // Mobile browsers
+      addToHomescreen({ autostart: false, startDelay: 0 }).show(true);
+    } else if (window.sidebar && window.sidebar.addPanel) {
+      // Firefox version < 23
+      window.sidebar.addPanel(bookmarkTitle, bookmarkURL, '');
+    } else if ((window.sidebar && /Firefox/i.test(navigator.userAgent)) || (window.opera && window.print)) {
+      // Firefox 23+ and Opera version < 15
+      $(this).attr({
+        href: bookmarkURL,
+        title: bookmarkTitle,
+        rel: 'sidebar'
+      }).off(e);
+      return true;
+    } else if (window.external && ('AddFavorite' in window.external)) {
+      // IE Favorites
+      window.external.AddFavorite(bookmarkURL, bookmarkTitle);
+    } else {
+      // Other browsers (mainly WebKit & Blink - Safari, Chrome, Opera 15+)
+      alert('Press ' + (/Mac/i.test(navigator.userAgent) ? 'Cmd' : 'Ctrl') + '+D to bookmark this page.');
+    }
+
+    return false;
+  });
+});
+</script>

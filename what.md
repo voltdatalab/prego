@@ -14,7 +14,7 @@ Interjection
 *from Italian*
 
 1. Please! / You're welcome! / Not at all! / Don't mention it!
-2. A much more warm and emotional "OK" in English
+2. A much more warm and emotional "OK" in Italian
 3. A multipurpose solution to every language need. Just what does it mean? Well, everything, actually
 
 >  Prego implies serviceable attention, it commands respect, and it encourages people to either wake up or speak up.
@@ -26,7 +26,7 @@ In prego you can browse around to find the tools you want to work with for data 
 
 This work is mostly a compilation list, so there is no attribution required whatsoever and we do not own any copyrights on any tools here, we just link to the source.
 
-The advantage is that you can always come to the same place to find new and awesome things, no more need to be google random words for the tool you are looking for. Enjoy!
+The advantage is that you can always come to the same place to find new and awesome things, no more need to google random words for the tool you are looking for. Enjoy!
 
 Prego! is not the only site that does this kind of compilation. Check out our evil competitors [School of Data](http://schoolofdata.org/), [Datavisualization.ch](http://selection.datavisualization.ch/), [Dataviz Catalogue](http://www.datavizcatalogue.com/), [Creative Bloq](http://www.creativebloq.com/design-tools/data-visualization-712402).
 

@@ -7,6 +7,11 @@
     color: #fff
 }
 
+.whatever_text{
+  max-width: 700px;
+  margin: 30px 5% 0;
+}
+
 /*
 .dataviz{
   background-color: #4d004b;
@@ -33,9 +38,5 @@
 .other-stuff {
   background-color: #666;
   color: #fff;
-}
-.whatever_text{
-  max-width: 700px;
-  margin: 30px 5% 0;
 }
 */

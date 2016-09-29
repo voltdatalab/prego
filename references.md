@@ -36,4 +36,6 @@ layout: page
 
 ###### ref 17.: [Dados Finos](http://dadosfinos.blogspot.com.br/)
 
+###### ref 18.: [Data Visualization Libraries Based on D3.JS](http://mikemcdearmon.com/portfolio/techposts/charting-libraries-using-d3)
+
 _I sometimes try to name the tool's creators, but I don't put much effort into finding their name. If you want attribution, reach me through Twitter._

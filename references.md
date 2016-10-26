@@ -32,7 +32,7 @@ layout: page
 
 ###### ref 15.: [Silk](http://data-journalism-tools.silk.co/)
 
-###### ref 16.: [TS](http://techslides.com/50-javascript-charting-and-graphics-libraries)
+###### ref 16.: [TS](http://techslides.com/50-javascript-charting-and-dataviz-libraries)
 
 ###### ref 17.: [Dados Finos](http://dadosfinos.blogspot.com.br/)
 

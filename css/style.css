@@ -1,5 +1,5 @@
 /* style for the tags */
-.dataviz, .APIs, .data, .jekyll, .maps, .tutorial, .other-stuff {
+.graphics, .APIs, .data, .jekyll, .maps, .tutorial, .other-stuff {
     padding: 5px;
     font-family: 'Inconsolata';
     border-radius: 5%;
@@ -43,7 +43,7 @@
 }
 
 
-.dataviz{
+.graphics{
   background-color: #4d004b;
   color: #fff;
 }

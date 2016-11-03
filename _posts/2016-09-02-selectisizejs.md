@@ -6,5 +6,5 @@ description:	Selectize is the hybrid of a textbox and <select> box. It's jQuery-
 
 tags:
 - other-stuff
-- programming
+- coding
 ---

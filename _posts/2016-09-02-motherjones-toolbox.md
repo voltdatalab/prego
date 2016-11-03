@@ -5,6 +5,6 @@ link:	https://github.com/motherjones/story-tools#list-of-tools
 description:	Mother Jones's Storytelling Tools
 tags:
 - graphics
-- programming
+- coding
 - other-stuff
 ---

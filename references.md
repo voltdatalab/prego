@@ -44,4 +44,6 @@ layout: page
 
 ###### ref 21.: [NPR Apps](https://github.com/nprapps)
 
+###### ref 22.: [The Pudding](https://pudding.cool/process/how-to-implement-scrollytelling/)
+
 _I sometimes try to name the tool's creators, but I don't put much effort into finding their name. If you want attribution, reach me through Twitter._

@@ -279,18 +279,18 @@ button,input,select[multiple],textarea {
 }
 
 a {
-  color: #a7000c;
+  color: #f0027f;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover,a:focus {
-  color: #000;
+  color: #386cb0;
   text-decoration: underline;
 }
 
 a:focus {
-  outline: thin dotted #333;
+  outline: thin dotted #386cb0;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -327,10 +327,10 @@ img {
 }
 
 hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   border: 0;
-  border-top: 1px solid #666;
+  border-top: 1px solid #386cb0;
 }
 
 .sr-only {
@@ -469,6 +469,7 @@ h3 small,.h3 small,h4 small,.h4 small {
   border-bottom: 1px solid #eee;
 }
 
+/*
 ul,ol {
   margin-top: 0;
   margin-bottom: 10px;
@@ -654,6 +655,8 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+*/
 
 .container {
   padding-right: 5%;
@@ -3810,7 +3813,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
   margin-bottom: 8px;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 
 .navbar-toggle .icon-bar {
@@ -4080,8 +4083,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-inverse {
-  background-color: #cbcbcb;
-  border-color: #080808;
+  background-color: #cbcbcb !important;
+  border-color: #cbcbcb !important;
   padding: 20px;
 }
 
@@ -4099,7 +4102,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #333;
+  color: #386cb0;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus {
@@ -4108,8 +4111,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus {
-  color: #a7000c;
-  background-color: #080808;
+  color: #386cb0;
+  background-color: #cbcbcb !important;
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:hover,.navbar-inverse .navbar-nav>.disabled>a:focus {

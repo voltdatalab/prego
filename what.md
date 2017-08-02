@@ -2,9 +2,6 @@
 layout: page
 ---
 
-<a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo" width="50%" /> </a>
-
-
 ### About
 
 Prego! is a quick reference guide compiling numerous tools to manipulate, analyze, visualize and read data.

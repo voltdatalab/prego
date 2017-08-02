@@ -3,39 +3,35 @@ layout: default
 ---
 
 <div class="container">
-
-  <div class="starter-template row">
-    <span style="float:right; margin: 15px;"><a href="http://twitter.com/share?text=Prego!, a very simple and cool website to find the tools for data journalism #ddj #data by @voltdatalab &url=http://prego.voltdata.info" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//prego.voltdata.info" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a><br><br>
-    </span>
-    <h1><a href="index.html"><img src="logo.png" alt="logo" width="150px" style="margin-left:-28px;"/> </a></h1>
+  <div class="form-inline">
     <p class="lead">A quick reference guide with numerous tools for data journalism or other related projects.</p>
     <hr />
     <p>Check out about this project <a href="what.html">in this link</a>. You can also access our <a href="http://prego.voltdata.info/output.json" target="_blank">humble API</a> and <a id="bookmark-this" href="#" title="Bookmark This Page">bookmark this page</a> if you like.</p>
     <p>Do you know about a tool to share? <a href="https://goo.gl/forms/lBEj7Gv9MZLFFXIg1" target="_blank">Click here and tell us!</a>.</p>
     	<br />
       <p><strong>TAGS:</strong>
-            <a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="graphics">x graphics</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="data">x data</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="maps">x maps</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="cool APIs">x APIs</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="Jekyll">x jekyll</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="tutorial">x tutorial</a>
-          	<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="coding">x coding</a>
-    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name="other-stuff">x other stuff</a>
+            <a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='graphics'>x graphics</a>
+    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='data'>x data</a>
+    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='maps'>x maps</a>
+    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='Jekyll'>x jekyll</a>
+    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='tutorial'>x tutorial</a>
+          	<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='coding'>x coding</a>
+            <a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='ruby'>x ruby</a>
+    				<a href="#" id="1" class="btn" onclick="reply_click(this)" data-product-name='other-stuff'>x other stuff</a>
     				</p>
   </div>
-
-
-{% include interactive-table.html %}
-
-<div class="row">
-<p><small>Built by <a href="http://twitter.com/@ProjetoStock" target="_blank">Sérgio Spagnuolo</a>, from
-   <a href="http://twitter.com/@ProjetoStock" target="_blank">Volt Data Lab</a>, with <a href="https://github.com/rypan/jekyll-db">Jekyll DB</a></p>
-</div>
-
 </div><!-- /.container -->
 
+{% include interactive-cards.html %}
+
+<div class="container">
+    <div class="row">
+        <p><small>Built by <a href="http://twitter.com/@sergiospagnuolo" target="_blank">Sérgio Spagnuolo</a>, from
+           <a href="http://twitter.com/@voltdatalab" target="_blank">Volt Data Lab</a>, with <a href="https://github.com/rypan/jekyll-db">Jekyll DB</a></p>
+    </div>
 </div>
+
+
 
 <script>
 jQuery(function($) {

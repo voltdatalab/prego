@@ -19,7 +19,7 @@
 			{% for post in site.posts %}
       <li class="max_list">
         <h4 class="name">{{ post.tool }}</h4>
-        <p class="desc">Description: {{ post.description }}</p>
+        <p class="desc"><em style="text-transform:uppercase">Description:</em> {{ post.description }}</p>
 				<p class="tags">Tags: <strong>{{ post.tags | array_to_sentence_string }}</strong></p>
 				<p class="category">Go for it: <a href="{{ post.link }}" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></p>
       </li>

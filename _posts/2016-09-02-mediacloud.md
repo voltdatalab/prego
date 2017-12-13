@@ -1,6 +1,6 @@
 ---
 layout: entry
-tool:	P5.js
+tool:	Media Cloud
 link:	https://mediacloud.org/
 description:	an open-source platform for studying media ecosystems
 tags:
